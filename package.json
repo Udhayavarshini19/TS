@@ -1,0 +1,28 @@
+{
+  "name": "cura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "report": "npx ts-node generateReport.ts",
+    "all": "npm run test ; npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.14",
+    "allure-commandline": "^2.33.0",
+    "allure-cucumberjs": "^3.2.1",
+    "dotenv": "^16.4.7",
+    "multiple-cucumber-html-reporter": "^3.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
+}
