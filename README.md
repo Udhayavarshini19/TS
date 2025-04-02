@@ -21,9 +21,7 @@ npm run report     ///to open and view report
        |      │── hooks.ts     
        
        |      │── pageFixture.ts 
-       
        │── /test/ 
-       
        │      │── /features/        
        
        │      │── /pages/ 
