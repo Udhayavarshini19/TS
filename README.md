@@ -8,7 +8,9 @@
 npm install
 
 # Run scripts:
+
 npm test     ///to run the test
+
 npm run report     ///to open and view report
 
 # Project structure
@@ -36,6 +38,7 @@ npm run report     ///to open and view report
 │── tsconfig.json
 
 # config envdot
+
 BASE_URL=https://katalon-demo-cura.herokuapp.com
 USER=John Doe
 PASSWORD=ThisIsNotAPassword
