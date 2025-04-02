@@ -15,19 +15,20 @@ npm run report     ///to open and view report
 
 # Project structure
 │── /src/
-
+       |
        │── /support/          
-       
+       |      |
        |      │── hooks.ts     
-       
+       |      | 
        |      │── pageFixture.ts 
+       |      | 
        │── /test/ 
+       |      | 
        │      │── /features/        
-       
+       |      | 
        │      │── /pages/ 
-       
-       │      │── /steps/     
-       
+       |      | 
+       │      │── /steps/           
 │── /results/
 
         │── /screenshots/ 
